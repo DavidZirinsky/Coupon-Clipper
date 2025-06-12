@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Coupon Clipper",
+  "version": "1.0",
+  "description": "Clips the first 250 coupons at K1ng S00pers with one click.",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_title": "Clip Coupons",
+    "default_icon": {
+      "48": "icons/coupon_clipper_icon_48.png",
+      "96": "icons/coupon_clipper_icon_96.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.kingsoopers.com/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
