@@ -3,10 +3,7 @@
 <div align="center">
   <div style="display: inline-flex; align-items: center; gap: 1rem;">
     <img src="github_assets/clip.png" alt="Coupon Clipper logo"/>
-    <video width="600" controls>
-      <source src="https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+      https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480
   </div>
 </div>
 
