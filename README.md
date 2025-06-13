@@ -1,9 +1,8 @@
 # Coupon Clipper ✂️
-
+https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480
 <div align="center">
   <div style="display: inline-flex; align-items: center; gap: 1rem;">
     <img src="github_assets/clip.png" alt="Coupon Clipper logo"/>
-      https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480
   </div>
 </div>
 
