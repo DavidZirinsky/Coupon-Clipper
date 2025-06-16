@@ -3,23 +3,22 @@
 https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480
 
 <div align="center">
-  <div style="display: inline-flex; align-items: center; gap: 1rem;">
-    <!-- Your logo -->
+  <div style="display:inline-flex;align-items:center;gap:1rem;">
+    <!-- your app logo -->
     <img src="github_assets/clip.png" alt="Coupon Clipper logo" width="150"/>
 
+  <!-- Chrome badge (PNG) -->
   <a href="https://chromewebstore.google.com/detail/coupon-clipper/mhlpjojbmabefhmkodfokajcdblpfoca" target="_blank">
-    <img src="github_assets/chrome-badge.png" 
-          alt="Available on Chrome Web Store"/>
-          <!-- width="120"/> -->
+    <img src="github_assets/chrome-badge.png" alt="Chrome Web Store" width="340"/>
   </a>
 
-  <!-- Firefox Add-ons badge -->
+  <!-- Firefox badge (SVG hot-linked) -->
   <a href="https://addons.mozilla.org/en-GB/firefox/addon/coupon-clipper/" target="_blank">
-    <img src="github_assets/firefox-badge.png" 
-          alt="Available on Firefox Add-ons" 
-          width="120"/>
+    <img src="github_assets/firefox.svg"
+          alt="Get it on Firefox"
+          width="300"/>
   </a>
-  </div>
+</div>
 </div>
 
 ## Clip Up To The 250 Digital Coupon Limit at K1ng S00pers 🎫
