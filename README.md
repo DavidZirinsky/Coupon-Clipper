@@ -1,8 +1,24 @@
 # Coupon Clipper ✂️
+
 https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480
+
 <div align="center">
   <div style="display: inline-flex; align-items: center; gap: 1rem;">
-    <img src="github_assets/clip.png" alt="Coupon Clipper logo"/>
+    <!-- Your logo -->
+    <img src="github_assets/clip.png" alt="Coupon Clipper logo" width="150"/>
+
+  <a href="https://chromewebstore.google.com/detail/coupon-clipper/mhlpjojbmabefhmkodfokajcdblpfoca" target="_blank">
+    <img src="github_assets/chrome-badge.png" 
+          alt="Available on Chrome Web Store"/>
+          <!-- width="120"/> -->
+  </a>
+
+  <!-- Firefox Add-ons badge -->
+  <a href="https://addons.mozilla.org/en-GB/firefox/addon/coupon-clipper/" target="_blank">
+    <img src="github_assets/firefox-badge.png" 
+          alt="Available on Firefox Add-ons" 
+          width="120"/>
+  </a>
   </div>
 </div>
 
