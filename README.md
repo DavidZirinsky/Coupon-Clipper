@@ -1,36 +1,24 @@
-# ✂️ Coupon Clipper 
+# ✂️ Coupon Clipper
 
 <div align="center">
 
 ## 🎫 Clip Up To The 250 Digital Coupon Limit at K1ng S00pers
 
+<img src="github_assets/clip.png" alt="Coupon Clipper logo"/>
+
 *Never miss a coupon again! Clip all available digital coupons before heading to the store.*
-
-</div>
-
-
-<div align="center">
-
-### 🎬 Demo Video
-https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480
 
 ### 🚀 Get the Extension
 
-<p>
-  <img src="github_assets/clip.png" alt="Coupon Clipper logo" width="120"/>
-</p>
 
-<p>
-  <a href="https://chromewebstore.google.com/detail/coupon-clipper/mhlpjojbmabefhmkodfokajcdblpfoca" target="_blank">
-    <img src="github_assets/chrome-badge.png" alt="Available in Chrome Web Store" width="300"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://addons.mozilla.org/en-GB/firefox/addon/coupon-clipper/" target="_blank">
-    <img src="github_assets/firefox.svg" alt="Get it on Firefox" width="280"/>
-  </a>
-</p>
+[<img src="github_assets/chrome-badge.png" alt="Available in Chrome Web Store" width="250"/>](https://chromewebstore.google.com/detail/coupon-clipper/mhlpjojbmabefhmkodfokajcdblpfoca)
+&nbsp;
+[<img src="github_assets/firefox.svg" alt="Get it on Firefox" width="230"/>](https://addons.mozilla.org/en-GB/firefox/addon/coupon-clipper/)
 
 </div>
+
+### 🎬 Demo Video
+https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480
 
 
 ## 📋 About
