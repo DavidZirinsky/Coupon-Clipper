@@ -1,33 +1,34 @@
-# Coupon Clipper ✂️
+<div align="center">
 
+# ✂️ Coupon Clipper
+
+## 🎫 Clip Up To The 250 Digital Coupon Limit at K1ng S00pers
+
+<img src="github_assets/clip.png" alt="Coupon Clipper logo"/>
+
+*Never miss a coupon again! Clip all available digital coupons before heading to the store.*
+
+### 🚀 Get the Extension
+
+
+[<img src="github_assets/chrome-badge.png" alt="Available in Chrome Web Store" width="250"/>](https://chromewebstore.google.com/detail/coupon-clipper/mhlpjojbmabefhmkodfokajcdblpfoca)
+&nbsp;
+[<img src="github_assets/firefox.svg" alt="Get it on Firefox" width="230"/>](https://addons.mozilla.org/en-GB/firefox/addon/coupon-clipper/)
+
+</div>
+
+### 🎬 Demo Video
 https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480
 
-<div align="center">
-  <div style="display:inline-flex;align-items:center;gap:1rem;">
-    <!-- your app logo -->
-    <img src="github_assets/clip.png" alt="Coupon Clipper logo" width="150"/>
 
-  <!-- Chrome badge (PNG) -->
-  <a href="https://chromewebstore.google.com/detail/coupon-clipper/mhlpjojbmabefhmkodfokajcdblpfoca" target="_blank">
-    <img src="github_assets/chrome-badge.png" alt="Chrome Web Store" width="340"/>
-  </a>
-
-  <!-- Firefox badge (SVG hot-linked) -->
-  <a href="https://addons.mozilla.org/en-GB/firefox/addon/coupon-clipper/" target="_blank">
-    <img src="github_assets/firefox.svg"
-          alt="Get it on Firefox"
-          width="300"/>
-  </a>
-</div>
-</div>
-
-## Clip Up To The 250 Digital Coupon Limit at K1ng S00pers 🎫
+## 📋 About
 
 We've all been there: you see an item at the grocery store is on sale, if and only if you clipped the digital coupon. Having other things to do you didn't do that, and good luck trying to clip the coupon in store. With the store acting a giant faraday cage, non-working wifi, and a slow mobile site you're going to be stuck paying more.
 
 Instead, just clip all the coupons you can before going to the store with this extension.
 
-## I Don't Want to Install Your Extension 💻
+
+## 💻 I Don't Want to Install Your Extension
 
 There's nothing to stop you from pasting this into your browser's developer console. To access your browser's console please [follow this guide](https://elfsight.com/blog/how-to-work-with-developer-console/), then paste this into the console:
 
@@ -62,7 +63,7 @@ There's nothing to stop you from pasting this into your browser's developer cons
     window.scrollBy(0, SCROLL_STEP);
     await sleep(jitter(SCROLL_BASE_INTERVAL, SCROLL_VARIANCE));
   }
-  // final “snap” to absolute bottom (for lazy‐load)
+  // final "snap" to absolute bottom (for lazy‐load)
   window.scrollTo(0, getTotalHeight());
   console.log("✅  Reached bottom of page.");
 
@@ -74,7 +75,7 @@ There's nothing to stop you from pasting this into your browser's developer cons
   console.log("⤴️  Jumped back to the top.");
   await sleep(300);
 
-  // Read the “Coupons Clipped”
+  // Read the "Coupons Clipped"
   function getClippedCount() {
     const titles = document.querySelectorAll("div.DashboardTile--title");
     for (let t of titles) {
@@ -97,7 +98,7 @@ There's nothing to stop you from pasting this into your browser's developer cons
     (btn) => btn.textContent.trim() === "Clip"
   );
 
-  console.log(`🔍  Found ${allClipButtons.length} “Clip” button(s) on page.`);
+  console.log(`🔍  Found ${allClipButtons.length} "Clip" button(s) on page.`);
 
   for (let i = 0; i < allClipButtons.length; i++) {
     clippedSoFar = getClippedCount();
@@ -110,7 +111,7 @@ There's nothing to stop you from pasting this into your browser's developer cons
 
     allClipButtons[i].click();
     console.log(
-      `✔️  Clicked “Clip” button #${i + 1}. (Clipped now: ${
+      `✔️  Clicked "Clip" button #${i + 1}. (Clipped now: ${
         clippedSoFar + 1 || "?"
       })`
     );
@@ -123,8 +124,9 @@ There's nothing to stop you from pasting this into your browser's developer cons
 })();
 ```
 
-## How To Run This For Development: 🛠
 
-- Firefox: [follow this guide](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#installing) and select the firefox directory in this repo.
+## 🛠 How To Run This For Development
 
-- Chrome: [follow this guide](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#:~:text=To%20load%20an%20unpacked%20extension%20in%20developer,Extensions%20at%20the%20bottom%20of%20the%20menu) and select the firefox directory in this repo.
+**Firefox:** [Follow this guide](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#installing) and select the firefox directory in this repo.
+
+**Chrome:** [Follow this guide](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#:~:text=To%20load%20an%20unpacked%20extension%20in%20developer,Extensions%20at%20the%20bottom%20of%20the%20menu) and select the firefox directory in this repo.
