@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Coupon Clipper",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Clips the first 250 coupons at K1ng S00pers with one click.",
   "permissions": ["activeTab", "tabs"],
   "browser_action": {
@@ -17,5 +17,8 @@
       "matches": ["*://*.kingsoopers.com/*"],
       "js": ["content-script.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko_android": {}
+  }
 }
