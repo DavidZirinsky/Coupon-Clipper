@@ -4,12 +4,22 @@
 
 ## 🎫 Clip Up To The 250 Digital Coupon Limit at K1ng S00pers
 
-<img src="github_assets/clip.png" alt="Coupon Clipper logo"/>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="github_assets/clip.png" alt="Coupon Clipper logo" height="300" /><br/>
+      <em>The Coupon Clipper Extension</em>
+    </td>
+    <td align="center">
+      <img src="github_assets/in-store.jpg" alt="In-store view" height="300" /><br/>
+      <em>In-store view of potential savings</em>
+    </td>
+  </tr>
+</table>
 
-*Never miss a coupon again! Clip all available digital coupons before heading to the store.*
+_Never miss a coupon again! Clip all available digital coupons before heading to the store._
 
 ### 🚀 Get the Extension
-
 
 [<img src="github_assets/chrome-badge.png" alt="Available in Chrome Web Store" width="250"/>](https://chromewebstore.google.com/detail/coupon-clipper/mhlpjojbmabefhmkodfokajcdblpfoca)
 &nbsp;
@@ -18,15 +28,14 @@
 </div>
 
 ### 🎬 Demo Video
-https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480
 
+https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480
 
 ## 📋 About
 
 We've all been there: you see an item at the grocery store is on sale, if and only if you clipped the digital coupon. Having other things to do you didn't do that, and good luck trying to clip the coupon in store. With the store acting a giant faraday cage, non-working wifi, and a slow mobile site you're going to be stuck paying more.
 
 Instead, just clip all the coupons you can before going to the store with this extension.
-
 
 ## 💻 I Don't Want to Install Your Extension
 
@@ -123,7 +132,6 @@ There's nothing to stop you from pasting this into your browser's developer cons
   console.log("🎉  Script finished.");
 })();
 ```
-
 
 ## 🛠 How To Run This For Development
 
