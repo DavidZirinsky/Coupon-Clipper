@@ -31,6 +31,10 @@ _Never miss a coupon again! Clip all available digital coupons before heading to
 
 https://github.com/user-attachments/assets/0c640df3-955c-4a70-960f-4b99c3e97480
 
+📱It works on Firefox for Android as well!
+
+https://github.com/user-attachments/assets/e26be720-1a69-4005-998b-4e8d6f6b49ea
+
 ## 📋 About
 
 We've all been there: you see an item at the grocery store is on sale, if and only if you clipped the digital coupon. Having other things to do you didn't do that, and good luck trying to clip the coupon in store. With the store acting a giant faraday cage, non-working wifi, and a slow mobile site you're going to be stuck paying more.
