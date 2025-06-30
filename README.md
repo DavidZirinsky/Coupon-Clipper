@@ -4,18 +4,20 @@
 
 ## 🎫 Clip Up To The 250 Digital Coupon Limit at K1ng S00pers
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="github_assets/clip.png" alt="Coupon Clipper logo" height="300" /><br/>
-      <em>The Coupon Clipper Extension</em>
-    </td>
-    <td align="center">
-      <img src="github_assets/in-store.jpg" alt="In-store view" height="300" /><br/>
-      <em>In-store view of potential savings</em>
-    </td>
-  </tr>
-</table>
+<figure align="center">
+  <!-- both imgs only set height; width will auto-scale to preserve aspect ratio -->
+  <img src="github_assets/clip.png" alt="Coupon Clipper logo" height="300" />
+  <img src="github_assets/in-store.jpg" alt="In-store view" height="300" />
+
+  <!-- optional spacing -->
+  <br/>
+
+  <!-- caption in italics, centered under the images -->
+  <figcaption><em>Pictured Above: The Coupon Clipper Extension, and in-store view of potential savings</em></figcaption>
+</figure>
+
+<br/>
+<br/>
 
 _Never miss a coupon again! Clip all available digital coupons before heading to the store._
 
