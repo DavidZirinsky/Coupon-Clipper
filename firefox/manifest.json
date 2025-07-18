@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Coupon Clipper",
-  "version": "1.0.1",
-  "description": "Clips the first 250 coupons at K1ng S00pers with one click.",
+  "version": "1.1.0",
+  "description": "Clips the first 250 coupons at King Soopers, Kroger, or Sprouts with one click.",
   "permissions": ["activeTab", "tabs"],
   "browser_action": {
     "default_title": "Clip Coupons",
@@ -14,7 +14,11 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.kingsoopers.com/*"],
+      "matches": [
+        "*://*.kingsoopers.com/*",
+        "*://*.kroger.com/*",
+        "*://*.sprouts.com/*"
+      ],
       "js": ["content-script.js"]
     }
   ],
