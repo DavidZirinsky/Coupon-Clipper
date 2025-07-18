@@ -2,7 +2,7 @@
 
 # ✂️ Coupon Clipper
 
-## 🎫 Clip Up To The 250 Digital Coupon Limit at K1ng S00pers
+## 🎫 Clip Up To The 250 Digital Coupon Limit at King Soopers
 
 <figure align="center">
   <!-- both imgs only set height; width will auto-scale to preserve aspect ratio -->
